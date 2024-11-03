@@ -10,8 +10,8 @@ Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.6
 Tested up to: 6.7
-Stable tag: 20241019
-Version:    20241019
+Stable tag: 20241102
+Version:    20241102
 Requires PHP: 5.6.20
 Text Domain: ga-google-analytics
 Domain Path: /languages
@@ -323,14 +323,10 @@ If you like GA Google Analytics, please take a moment to [give a 5-star rating](
 > New Pro version available! Check out [GA Pro &raquo;](https://plugin-planet.com/ga-google-analytics-pro/)
 
 
-**20241019**
+**20241102**
 
-* Changes `%%userid%%` to output empty string for non-logged users
-* Improves plugin documentation/readme.txt
-* Updates some changed URLs for Google docs
-* Updates plugin settings page
-* Updates default translation template
-* Tests on WordPress 6.7 (beta)
+* Fixes bug with textdomain loading
+* Tests on WordPress 6.7
 
 
 Full changelog @ [https://plugin-planet.com/wp/changelog/ga-google-analytics.txt](https://plugin-planet.com/wp/changelog/ga-google-analytics.txt)

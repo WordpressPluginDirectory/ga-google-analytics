@@ -10,8 +10,8 @@
 	Contributors: specialk
 	Requires at least: 4.6
 	Tested up to: 6.7
-	Stable tag: 20241019
-	Version:    20241019
+	Stable tag: 20241102
+	Version:    20241102
 	Requires PHP: 5.6.20
 	Text Domain: ga-google-analytics
 	Domain Path: /languages
@@ -65,10 +65,10 @@ if (!class_exists('GA_Google_Analytics')) {
 		
 		function constants() {
 			
-			if (!defined('GAP_VERSION')) define('GAP_VERSION', '20241019');
+			if (!defined('GAP_VERSION')) define('GAP_VERSION', '20241102');
 			if (!defined('GAP_REQUIRE')) define('GAP_REQUIRE', '4.6');
 			if (!defined('GAP_AUTHOR'))  define('GAP_AUTHOR',  'Jeff Starr');
-			if (!defined('GAP_NAME'))    define('GAP_NAME',    __('GA Google Analytics', 'ga-google-analytics'));
+			if (!defined('GAP_NAME'))    define('GAP_NAME',    'GA Google Analytics');
 			if (!defined('GAP_HOME'))    define('GAP_HOME',    'https://perishablepress.com/ga-google-analytics/');
 			if (!defined('GAP_PATH'))    define('GAP_PATH',    'options-general.php?page=ga-google-analytics');
 			if (!defined('GAP_URL'))     define('GAP_URL',     plugin_dir_url(__FILE__));
